@@ -25,11 +25,11 @@ body {
 }
 
 #copyright {
-    padding: 5px;
     text-align: center;
     font-size: 0.75em;
     color: #808080;
-    animation: blink
+    animation: blink;
+    white-space: nowrap;
 }
 
 #copyright::after {
@@ -48,7 +48,6 @@ body {
         opacity: 0;
     }
 }
-
 
 #username {
     color: var(--accentColor);
